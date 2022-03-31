@@ -1,29 +1,26 @@
 /home/nightfury/Downloads/clion-2021.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/nightfury/Downloads/clion-2021.3.4/bin/ninja/linux/ninja -G Ninja /home/nightfury/CLionProjects/winnove-medical-interview
-CMake Warning (dev) in CMakeLists.txt:
-  No project() command is present.  The top-level CMakeLists.txt file must
-  contain a literal, direct call to the project() command.  Add a line of
-  code such as
+-- Using header-only CGAL
+-- Targetting Ninja
+-- Using /usr/bin/c++ compiler.
+-- Boost include dirs: /usr/include
+-- Boost libraries:    
+-- Using gcc version 4 or later. Adding -frounding-math
+CMake Warning at /home/nightfury/CGAL/cmake/modules/CGAL_enable_end_of_configuration_hook.cmake:99 (message):
+  =======================================================================
 
-    project(ProjectName)
+  CGAL performance notice:
 
-  near the top of the file, but after cmake_minimum_required().
+  The variable CMAKE_BUILD_TYPE is set to "Debug".  For performance reasons,
+  you should set CMAKE_BUILD_TYPE to "Release".
 
-  CMake is pretending there is a "project(Project)" command on the first
-  line.
-This warning is for project developers.  Use -Wno-dev to suppress it.
+  Set CGAL_DO_NOT_WARN_ABOUT_CMAKE_BUILD_TYPE to TRUE if you want to disable
+  this warning.
 
--- The C compiler identification is GNU 10.3.0
--- The CXX compiler identification is GNU 10.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+  =======================================================================
+Call Stack (most recent call first):
+  CMakeLists.txt:9223372036854775807 (CGAL_run_at_the_end_of_configuration)
+
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/nightfury/CLionProjects/winnove-medical-interview/cmake-build-debug
