@@ -1,0 +1,4 @@
+cmake-build-debug/
+vtk_effort/cmake-build-debug
+vtk_effort/build
+build/
