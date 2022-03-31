@@ -1,0 +1,3 @@
+/home/nightfury/CLionProjects/winnove-medical-interview/build/CMakeFiles/rebuild_cache.dir
+/home/nightfury/CLionProjects/winnove-medical-interview/build/CMakeFiles/edit_cache.dir
+/home/nightfury/CLionProjects/winnove-medical-interview/build/CMakeFiles/WinnoveInterview.dir

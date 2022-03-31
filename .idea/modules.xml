@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ORIENTATION.iml" filepath="$PROJECT_DIR$/.idea/ORIENTATION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/winnove-medical-interview.iml" filepath="$PROJECT_DIR$/.idea/winnove-medical-interview.iml" />
     </modules>
   </component>
 </project>
